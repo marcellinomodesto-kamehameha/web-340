@@ -1,5 +1,6 @@
 function calculateDistance(planet1, planet2) {
   // TODO: Implement this function
+  return Math.abs(planet1 - planet2);
 }
 
 module.exports = calculateDistance;
